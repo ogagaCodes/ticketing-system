@@ -1,0 +1,10 @@
+# PostgreSQL Configuration
+DB_HOST=                 
+DB_PORT=                    
+DB_USERNAME=     
+DB_PASSWORD=      
+DB_NAME=     
+
+# Application Configuration
+PORT=3000                          
+# JWT_SECRET=your_jwt_secret_key   ---- will be added if needed   

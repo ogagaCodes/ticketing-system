@@ -1,0 +1,16 @@
+Design Choices Explanation
+Repository Design Pattern:
+
+Separation of Concerns: The repository pattern helps separate the data access logic from the business logic, promoting a cleaner architecture. This makes the application easier to maintain and test, as each layer has a distinct responsibility.
+Abstraction of Data Access: By abstracting data access, I can switch between different data sources (e.g., in-memory storage, databases) with minimal changes to the business logic. This flexibility supports future scalability and adaptation to changing requirements.
+Encapsulation: The repository provides a centralized location for data operations, encapsulating complex queries and operations, which enhances code readability and reusability.
+Class-Based Structure:
+
+Modularity and Reusability: A class-based system allows for modular code organization. Each class can represent a specific entity or service within the application, promoting reusability and making it easier to manage dependencies.
+Encapsulation of Logic: Class-based design encapsulates related properties and methods, enabling better organization of the code. This encapsulation also enhances maintainability, as changes to one class are less likely to affect others.
+Improved Readability: Using classes makes the codebase more intuitive, as it follows the Object-Oriented Programming (OOP) paradigm, which is familiar to many developers. This can improve onboarding for new team members and collaboration within the team.
+Unit Testing:
+
+Test-Driven Development (TDD): Implementing unit tests allows for a TDD approach, ensuring that functionalities are thoroughly tested before implementation. This practice helps catch bugs early in the development process and provides confidence in the stability of the code.
+Isolation of Tests: Unit tests focus on individual components or methods, making it easier to pinpoint failures and ensure that each piece of functionality works as intended. This isolation leads to more reliable and maintainable tests.
+Documentation of Behavior: Tests serve as a form of documentation, illustrating how the components are expected to behave. This can be helpful for future reference, especially when updating or refactoring the code.
